@@ -1,8 +1,8 @@
 import torch
 from torch.nn import Linear, LayerNorm, Dropout
 from torch.nn.functional import relu, pad
-from pigvae.graph_transformer import Transformer, PositionalEncoding
-from pigvae.synthetic_graphs.data import DenseGraphBatch
+from ..pigvae.graph_transformer import Transformer, PositionalEncoding
+from ..pigvae.synthetic_graphs.data import DenseGraphBatch
 
 
 class GraphAE(torch.nn.Module):
